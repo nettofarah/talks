@@ -51,7 +51,7 @@ h1, h2, h3 {
 .main h1, .main h2, .main h3, .main p {
   color: rgb(84, 84, 84);
 }
-.main {
+.main h1, .main h2 {
   text-transform: uppercase;
 }
 
