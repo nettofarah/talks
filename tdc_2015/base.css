@@ -1,18 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
 body {
-  font-family: 'Ubuntu Mono';
+  font-family: 'Open Sans';
 }
 
 h1, h2, h3 {
   font-family: 'Yanone Kaffeesatz';
-  margin: 0;
   font-weight: 600;
-  text-transform: uppercase;
-  line-height: 110%;
   zoom: 130%;
+
+  /*font-family: 'Avenir Next';*/
+  /*font-weight: 750;*/
+
+  margin: 0;
+  line-height: 110%;
 }
 
 .logo {
@@ -34,12 +40,19 @@ h1, h2, h3 {
   background: #44CEFD;
 }
 
+/*.remark-slide-container:nth-of-type(2n + 1) .remark-slide-content {*/
+  /*background: #ff4400;*/
+/*}*/
+
 .remark-slide-container .remark-slide-content.main {
   background: white;
 }
 
 .main h1, .main h2, .main h3, .main p {
   color: rgb(84, 84, 84);
+}
+.main {
+  text-transform: uppercase;
 }
 
 h1, h2, h3, p {
@@ -61,7 +74,7 @@ ul li p, ul li {
 }
 
 ul li {
-  margin-bottom: 18px;
+  margin-bottom: 12px;
 }
 
 ul {
