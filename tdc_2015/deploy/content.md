@@ -79,7 +79,7 @@ until you have to deploy it to a couple of hundred machines
 # Provisioning with Chef
 
 - Really good tool
-- But we no longer have any Chef experts
+- But can get complex over time
 
 ---
 class: fake-middle
@@ -128,11 +128,7 @@ Most of them deployed to Heroku.
 
 ---
 class: fake-middle
-# Heroku is Beautiful and Dead Simple
-
---
-
-But also expensive :(
+We love Heroku!
 
 ---
 class: fake-middle
