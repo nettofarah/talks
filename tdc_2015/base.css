@@ -67,6 +67,10 @@ p {
   zoom: 180%;
 }
 
+.image p {
+  zoom: 0;
+}
+
 ul li p, ul li {
   text-align: left;
   color: white;

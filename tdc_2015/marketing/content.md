@@ -48,22 +48,35 @@ i.e. language, design, analytics, tools
 class: fake-middle
 # Problems
 
-- What sort of users should we reach out to
-- When is the best time?
-- What sort of content should we show?
-- Should we standardize on content?
+---
+class: fake-middle
+# What sort of users should we reach out to?
 
 ---
 class: fake-middle
+# When is the best time to send emails?
+
+---
+class: fake-middle
+# What sort of content should we show?
+
+---
+class: fake-middle
+# Should we standardize on content?
+
+---
+class: fake-middle, image
 # Step 0
 
-Conversion Funnel (Pirate Metrics)
+## Conversion Funnel (Pirate Metrics)
 
+<!--
 - Acquisition (Marketing)
 - Activation (Product)
 - Retention (Marketing)
 - Revenue (Product / Business Development)
 - Referral (Product / Marketing / Business Development)
+-->
 
 ---
 class: fake-middle
@@ -89,12 +102,6 @@ class: fake-middle
 # Conversion Rate
 
 Your own metric HERE
-
----
-class: fake-middle
-# Some Tools
-
-<!-- show some graphs here -->
 
 ---
 class: fake-middle
