@@ -76,7 +76,7 @@ class: fake-middle, image
 
 ---
 class: fake-middle, no-background, aarrr
-# ARRRR
+# AARRR
 
 .fancy-list[
 - Acquisition
@@ -102,6 +102,14 @@ class: fake-middle
 Mostly Vannity Metrics (but still useful)
 
 ---
+class: fake-middle, image
+![Metrics](http://static.mailchimp.com/web/features/animation/fallback.png)
+
+---
+class: fake-middle, image
+![Metrics](https://www.sendwithus.com/assets/img/features/analytics.png?rev=201509192253)
+
+---
 class: fake-middle
 # Delivery Rate
 
@@ -112,6 +120,14 @@ class: fake-middle
 ---
 class: fake-middle
 # Click Through Rate
+
+---
+class: fake-middle
+# Unsubscribe Rate
+
+---
+class: fake-middle
+# Spam Reports
 
 ---
 class: fake-middle
@@ -135,10 +151,10 @@ class: fake-middle
 - Understading your audience, sample size, statistical significance
 
 ---
-class: fake-middle
-# A/B Testing
+class: fake-middle, no-logo
+# Design
+![AB](https://www.sendwithus.com/assets/img/features/ab_tests.png?rev=201509192253)
 
-Design
 
 ---
 class: fake-middle
@@ -153,9 +169,9 @@ class: fake-middle
 Delivery Time
 
 ---
-class: fake-middle
+class: fake-middle, no-logo
 # Drip Campaigns
-
+![Drip](https://www.sendwithus.com/assets/img/features/drip_campaigns.png?rev=201509192253)
 ---
 class: fake-middle
 # Event Based Engagement Campaigns
@@ -186,6 +202,8 @@ Beats standard email
 ---
 class: fake-middle
 # The Inbox Stack
+
+`Our Awesome Company Loves You (32)`
 
 ---
 class: fake-middle
