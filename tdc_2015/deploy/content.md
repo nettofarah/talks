@@ -79,7 +79,7 @@ until you have to deploy it to a couple of hundred machines
 # Provisioning with Chef
 
 - Really good tool
-- But can become very complex over time too
+- But we no longer have any Chef experts
 
 ---
 class: fake-middle
