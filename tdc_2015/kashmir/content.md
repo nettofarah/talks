@@ -44,44 +44,27 @@ For whatever reason.
 
 ---
 class: fake-middle
-# It actually does
-
----
-class: fake-middle
 # Scaling Web (Rails) Apps
-Assuming everything is in place
+You can do it!
 
 ---
 class: fake-middle
 # Background Jobs
-hard
 
 ---
 class: fake-middle
-# Queues
-hard
+## With a lot of Processes
 
----
-class: fake-middle
-# Asset Pipeline
-front-end only
+or
 
----
-class: fake-middle
-# With a lot of Processes
-Not that hard
-
----
-class: fake-middle
-# With Threads
-could be tricky
+## With Threads
 
 ---
 class: fake-middle
 # Scaling Web (Rails) Apps
 with
 
-## Rails.cache
+## `Rails.cache`
 
 ---
 class: fake-middle
@@ -113,10 +96,6 @@ and
 ---
 class: fake-middle
 # Ok, so you're still not convinced
-
----
-class: fake-middle
-# The `Rails.cache` route
 
 ---
 class: fake-middle
@@ -198,12 +177,6 @@ class: fake-middle
 ---
 class: fake-middle
 # Step 1
-
-Understand your Database.
-
----
-class: fake-middle
-# Step 1
 ## Understand your Database
 
 ---
@@ -232,21 +205,6 @@ class: fake-middle
 class: fake-middle
 # Step 2
 ## Use the best tool for the job
-
----
-class: fake-middle
-# Is your data composed by relationships?
-Use SQL
-
----
-class: fake-middle
-# Key value?
-You can use Redis for that
-
----
-class: fake-middle
-# Performing a Search?
-ElasticSearch and SOLR might be just fast enough for you
 
 ---
 class: fake-middle
@@ -281,11 +239,6 @@ Hard to design
 
 ---
 class: fake-middle
-# Russian Doll Caching
-Sounds very promising. But you'd have to do some upfront work.
-
----
-class: fake-middle
 # Kashmir
 Open Source caching library by IFTTT.
 
@@ -310,14 +263,3 @@ class: fake-middle
 ---
 class: fake-middle
 # Questions?
-
-
-
-
-
-
-
-
-
-
-
