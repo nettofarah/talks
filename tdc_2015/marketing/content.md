@@ -99,17 +99,21 @@ class: fake-middle
 # Step 1
 ## Understanding (basic) Email Analytics
 
-Mostly Vannity Metrics (but still useful)
+Mostly Vanity Metrics (but still useful)
 
 ---
 class: fake-middle, image, no-logo
 # Metrics
 .mailchimp[![Metrics](images/mailchimp.png)]
 
+(For Illustration Purposes Only)
+
 ---
 class: fake-middle, image, no-logo
 # Metrics
 ![Metrics](images/sendwithus_analytics.png)
+
+(For Illustration Purposes Only)
 
 ---
 class: fake-middle
@@ -157,6 +161,8 @@ class: fake-middle, no-logo, image
 # Design
 ![AB](images/ab_tests.png)
 
+(For Illustration Purposes Only)
+
 ---
 class: fake-middle
 # A/B Testing
@@ -173,6 +179,8 @@ Delivery Time
 class: fake-middle, no-logo, image
 # Drip Campaigns
 ![Drip](images/drip_campaigns.png)
+
+(For Illustration Purposes Only)
 ---
 class: fake-middle
 # Event Based Engagement Campaigns
@@ -183,7 +191,7 @@ class: fake-middle
 
 ---
 class: fake-middle
-# Some Products We Tried
+# Some Products Worth Checking Out
 
 - Sendgrid
 - SendWithUs
