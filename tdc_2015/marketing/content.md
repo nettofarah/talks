@@ -70,13 +70,29 @@ class: fake-middle, image
 
 ## Conversion Funnel (Pirate Metrics)
 
-<!--
-- Acquisition (Marketing)
-- Activation (Product)
-- Retention (Marketing)
-- Revenue (Product / Business Development)
-- Referral (Product / Marketing / Business Development)
--->
+![Pirate](http://glennstovall.com/images/articles/pirate.png)
+
+## AARRR
+
+---
+class: fake-middle, no-background, aarrr
+# ARRRR
+
+.fancy-list[
+- Acquisition
+- Activation
+- Retention
+- Revenue
+- Referral
+]
+
+.fancy-list.roles[
+- Marketing
+- Marketing + Product
+- Product
+- Product + BizDev
+- Marketing
+]
 
 ---
 class: fake-middle

@@ -40,6 +40,11 @@ h1, h2, h3 {
   background-color: #44CEFD;
 }
 
+.remark-slide-container .remark-slide-content.no-background {
+  background-color: white;
+}
+
+
 /*.remark-slide-container:nth-of-type(2n + 1) .remark-slide-content {*/
   /*background: #ff4400;*/
 /*}*/
@@ -139,3 +144,35 @@ a {
   background-color: white !important;
 }
 
+
+.aarrr h1 {
+  color: rgb(84, 84, 84);
+  margin-bottom: 30px;
+}
+
+.fancy-list {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  padding: 10px 18px;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+.fancy-list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.fancy-list ul li {
+  background-color: #44CEFD;
+  color: white;
+  padding: 8px 16px;
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.roles ul li {
+  background-color: #ff4400;
+}
