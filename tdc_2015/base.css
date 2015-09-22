@@ -91,3 +91,8 @@ ul {
 }
 
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.remark-inline-code {
+  background-color: #424242;
+  padding: 2px 18px;
+}
