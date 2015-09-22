@@ -150,9 +150,9 @@ to a more homogenous infrastructure?
 
 ---
 class: fake-middle
-# Docker + Docker Compose + Mesosphere
+# Docker + Mesosphere + Marathon + Chronos
 
-= Profit!
+(Not live in production yet)
 
 ---
 class: fake-middle
