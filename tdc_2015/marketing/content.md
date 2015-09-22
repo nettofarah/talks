@@ -102,12 +102,14 @@ class: fake-middle
 Mostly Vannity Metrics (but still useful)
 
 ---
-class: fake-middle, image
-![Metrics](http://static.mailchimp.com/web/features/animation/fallback.png)
+class: fake-middle, image, no-logo
+# Metrics
+.mailchimp[![Metrics](images/mailchimp.png)]
 
 ---
-class: fake-middle, image
-![Metrics](https://www.sendwithus.com/assets/img/features/analytics.png?rev=201509192253)
+class: fake-middle, image, no-logo
+# Metrics
+![Metrics](images/sendwithus_analytics.png)
 
 ---
 class: fake-middle
@@ -151,10 +153,9 @@ class: fake-middle
 - Understading your audience, sample size, statistical significance
 
 ---
-class: fake-middle, no-logo
+class: fake-middle, no-logo, image
 # Design
-![AB](https://www.sendwithus.com/assets/img/features/ab_tests.png?rev=201509192253)
-
+![AB](images/ab_tests.png)
 
 ---
 class: fake-middle
@@ -169,9 +170,9 @@ class: fake-middle
 Delivery Time
 
 ---
-class: fake-middle, no-logo
+class: fake-middle, no-logo, image
 # Drip Campaigns
-![Drip](https://www.sendwithus.com/assets/img/features/drip_campaigns.png?rev=201509192253)
+![Drip](images/drip_campaigns.png)
 ---
 class: fake-middle
 # Event Based Engagement Campaigns

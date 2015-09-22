@@ -107,8 +107,11 @@ ul {
 }
 
 img {
-  max-width: 400px;
   zoom: 0;
+}
+
+.image img {
+  max-width: 600px;
 }
 
 .code-slide {
