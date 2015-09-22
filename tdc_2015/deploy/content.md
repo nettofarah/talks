@@ -26,7 +26,7 @@ class: fake-middle
 # Background
 
 - Millions of Background Jobs every day
-- Over a Billion Events
+- Over a Billion Events every day
 - 215 (and growing) partner integrations
 
 ---
