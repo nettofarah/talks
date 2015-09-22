@@ -99,7 +99,7 @@ class: fake-middle
 
 ---
 class: fake-middle
-# Ops, we forgot to remove it from the cache
+# Oops, we forgot to remove it from the cache
 
 ---
 class: fake-middle
