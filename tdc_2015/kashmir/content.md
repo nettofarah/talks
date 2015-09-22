@@ -238,18 +238,140 @@ class: fake-middle
 Hard to design
 
 ---
+class: fake-middle, image, kashmir
+.kashmir-logo[![Kashmir](https://raw.githubusercontent.com/IFTTT/kashmir/images/images/kashmirbanner.jpg?token=AAIf5wn0aFvxx1oNOO6GVw7SO4vENFW4ks5VuSaLwA%3D%3D)]
+
+---
+class: code-slide, fake-middle
+```ruby
+class Person
+  include Kashmir
+
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+  representations do
+    rep :name
+    rep :age
+  end
+end
+
+Person.new('Netto Farah', 27).represent(:name, :age)
+
+=> {:name=>"Netto Farah", :age=>"27"}
+```
+---
+class: fake-middle, code-slide, long-code
+
+.left-column[```ruby
+class Recipe < OpenStruct
+  include Kashmir
+
+  representations do
+    rep(:title)
+    rep(:chef)
+  end
+end
+
+
+class Chef < OpenStruct
+  include Kashmir
+
+  representations do
+    rep(:name)
+  end
+end
+```]
+
+.right-column[```ruby
+netto = Chef.new(
+  name: 'Netto Farah'
+)
+
+beef_stew = Recipe.new(
+  title: 'Beef Stew',
+  chef: netto
+)
+
+beef_stew.represent(
+  :title,
+  { :chef => :name }
+)
+
+=> {
+  :title => "Beef Stew",
+  :chef => {
+    :name => 'Netto Farah'
+  }
+}
+```]
+
+---
 class: fake-middle
-# Kashmir
-Open Source caching library by IFTTT.
+# And Many More Examples
+
+https://github.com/IFTTT/kashmir
 
 ---
 class: fake-middle
 # Cache Layers
 
 ---
+class: image, no-logo, layers
+background-image: url(https://raw.githubusercontent.com/IFTTT/kashmir/images/images/kashmir.png?token=AAIf57rtAVfFPENYmWfBJ9nhZOmbFs1qks5VuVFOwA%3D%3D)
+
+---
 class: fake-middle
 # Database Query Planner
 Levarages `ActiveRecord::Associations::Preloader`
+
+
+---
+class: fake-middle
+# Prevents N+1 Queries
+
+---
+class: fake-middle, code-slide
+
+```ruby
+Chef.all.each do |chef|
+  chef.recipes.to_a
+end
+```
+generates
+
+```SQL
+SELECT * FROM chefs
+
+SELECT "recipes".*
+  FROM "recipes" WHERE "recipes"."chef_id" = 1
+
+SELECT "recipes".*
+  FROM "recipes" WHERE "recipes"."chef_id" = 2
+
+  ...
+
+SELECT "recipes".*
+  FROM "recipes" WHERE "recipes"."chef_id" = N
+```
+
+---
+class: fake-middle, code-slide
+
+```ruby
+Chef.all.represent([:recipes])
+```
+
+generates
+
+```SQL
+SELECT "chefs".* FROM "chefs"
+
+SELECT "recipes".* FROM "recipes"
+  WHERE "recipes"."chef_id" IN (1, 2)
+```
 
 ---
 class: fake-middle
@@ -257,8 +379,10 @@ class: fake-middle
 Trickiest part.
 
 ---
-class: fake-middle
 # Advanced Use Cases
+
+- Rest APIs
+- GraphQL like endpoints
 
 ---
 class: fake-middle

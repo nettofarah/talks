@@ -31,13 +31,13 @@ h1, h2, h3 {
 }
 
 .blue {
-  background: #44CEFD;
+  background-color: #44CEFD;
   color: white;
   padding: 0 16px;
 }
 
 .remark-slide-container .remark-slide-content {
-  background: #44CEFD;
+  background-color: #44CEFD;
 }
 
 /*.remark-slide-container:nth-of-type(2n + 1) .remark-slide-content {*/
@@ -45,7 +45,7 @@ h1, h2, h3 {
 /*}*/
 
 .remark-slide-container .remark-slide-content.main {
-  background: white;
+  background-color: white;
 }
 
 .main h1, .main h2, .main h3, .main p {
@@ -65,10 +65,6 @@ h1, h2, h3, p {
 
 p {
   zoom: 180%;
-}
-
-.image p {
-  zoom: 0;
 }
 
 ul li p, ul li {
@@ -96,3 +92,50 @@ ul {
   background-color: #424242;
   padding: 2px 18px;
 }
+
+.kashmir {
+  background: white !important;
+}
+
+.kashmir-logo {
+  zoom: 50%;
+}
+
+.code-slide {
+  background-color: #272822 !important;
+}
+
+.code-slide .logo, .no-logo .logo {
+  display: none;
+}
+
+.code-slide .remark-code {
+  font-size: 27px;
+}
+
+.long-code .remark-code {
+  font-size: 24px;
+}
+
+.right-column {
+  float: right;
+  width: 50%;
+}
+
+.left-column {
+  float: left;
+  width: 50%;
+}
+
+a {
+  color: white;
+}
+
+.image p {
+  zoom: 0;
+}
+
+.layers {
+  background-color: white !important;
+}
+
