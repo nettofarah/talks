@@ -1,36 +1,55 @@
-class: center, middle
-
-# POLO
-## An easy way to work with real world data in development.
+layout: true
+.logo[![IFTTT](https://upload.wikimedia.org/wikipedia/commons/8/8d/IFTTT_Logo.svg)]
 
 ---
-class: center, middle
+class: main, middle
 
+# .blue[POLO]
+## Working with Real World data in Development
+.right[@nettofarah]
+
+---
+class: fake-middle
 # nettofarah
 
 ## github.com/nettofarah
 ## @nettofarah
 
 ---
-class: center, middle
-
+class: fake-middle
 # Real World Production Data in Development
 
 ---
-
-# The Problem
-
-- Managing Data is hard
-- Different environments
+class: fake-middle
+# Because Managing Data is hard
 
 ---
+class: fake-middle
+# Specially accross Different environments
 
-# Data in `Rails.env.dev`
+---
+class: fake-middle
+# Data in `Rails.env.dev` is...
 
-- ugly
-- incomplete
-- weird
-- biased
+---
+class: fake-middle
+# Ugly
+
+---
+class: fake-middle
+# Incomplete
+
+---
+class: fake-middle
+# Inconsistent
+
+---
+class: fake-middle
+# Weird
+
+---
+class: fake-middle
+# Biased
 
 <!--
 Managing data across different environments is hard. Development data is usually
@@ -43,12 +62,25 @@ We'll hardly ever be testing our features with the full picture in mind.
 -->
 
 ---
-# Some Consequences
+class: fake-middle
+# Some Consequences of Inconsistent Data
 
-- Bugs will begin to show up
-- Misaligment (I'm talking about the screen)
-- Form validation will go crazy
-- Special Characters :S
+---
+class: fake-middle
+# 🐛🐞
+
+---
+class: fake-middle
+# Misalignment
+I'm talking about the 💻
+
+---
+class: fake-middle
+# Form validation going nuts 🌰
+
+---
+class: fake-middle
+# Special Characters 😖
 
 <!--
 Bugs will begin to show up. Elements will not look well aligned on the screen,
@@ -57,10 +89,13 @@ code, some things will only be testable in production. :O
 -->
 
 ---
-
+class: fake-middle
 # The Worst Consequence
 
-## `Rails.env.dev` will look sad :(
+---
+class: fake-middle
+# `Rails.env.dev`
+will look 😢
 
 <!--
 We know things are hard by now. Your list views look terrible, with a bunch of
@@ -70,13 +105,28 @@ look sad :(
 -->
 
 ---
-# Some Solutions
+class: fake-middle
+# But how do people solve these problems?
 
-- Tests in PRODUCTION
-- `Rails.env.staging` ?
-- Custom `db/migrations` for data
-- `rake db:seed`
-- CSVs and Spreadsheets
+---
+class: fake-middle
+# We can test it in `PRODUCTION`
+
+---
+class: fake-middle
+# `Rails.env.staging` ?
+
+---
+class: fake-middle
+# Custom `db/migrations` for data
+
+---
+class: fake-middle
+# `rake db:seed`
+
+---
+class: fake-middle
+# CSVs and Spreadsheets
 
 <!--
 
@@ -103,9 +153,12 @@ love them as much as they do production environments. Which is not to be blamed.
 
 
 ---
-# Enters POLO
+class: image, main, fake-middle
+.kashmir-logo[![POLO](https://raw.githubusercontent.com/IFTTT/polo/images/images/polo.png)]
 
-- Sample Database Snapshots
+---
+class: fake-middle
+# Sample Database Snapshots
 
 <!--
 Polo travels through your database and creates sample snapshots so you can work
@@ -114,9 +167,11 @@ with real world data in any environment.
 -->
 
 ---
-
-# POLO
-## `ActiveRecord::Associations` to `.sql`
+class: fake-middle
+Your good ol'
+###`ActiveRecord::Associations`
+to
+###`.sql`
 
 <!--
 Polo takes an ActiveRecord::Base seed object and traverses every whitelisted
@@ -127,8 +182,11 @@ favorite environment.
 -->
 
 ---
+class: fake-middle
+# POLO lets you turn this...
 
-# POLO lets you turn this:
+---
+class: fake-middle, code-slide
 
 ```ruby
 class Chef < ActiveRecord::Base
@@ -151,56 +209,82 @@ end
 ```
 
 ---
-# Into this:
+class: fake-middle
+# Into this...
+
+---
+class: fake-middle, code-slide, short-code
 
 ```ruby
 inserts = Polo.explore(Chef, 1)
+
+# Chef -> ActiveRecord::Base object
+# 1 -> Database ID. (Chef with ID 1)
 ```
 
 ```sql
-INSERT INTO `chefs` (`id`, `name`) VALUES (1, 'Netto')
+INSERT INTO `chefs` (`id`, `name`)
+  VALUES (1, 'Netto')
 ```
 
 ---
+class: fake-middle
 # It works with associations too
+
+---
+class: fake-middle, code-slide
 
 ```ruby
 inserts = Polo.explore(Chef, 1, :recipes)
+
+# :recipes ->
+#   ActiveRecord::Associations::HasManyAssociation
+#
+# a Chef has many Recipes
 ```
 
 ```sql
-INSERT INTO `chefs` (`id`, `name`) VALUES (1, 'Netto')
+INSERT INTO `chefs` (`id`, `name`)
+  VALUES (1, 'Netto')
 
-INSERT INTO `recipes` (`id`, `title`, `num_steps`, `chef_id`)
-  VALUES (1, 'Turkey Sandwich', NULL, 1)
+INSERT INTO `recipes`
+    (`id`, `title`, `num_steps`, `chef_id`)
+  VALUES
+    (1, 'Turkey Sandwich', NULL, 1)
 
-INSERT INTO `recipes` (`id`, `title`, `num_steps`, `chef_id`)
-  VALUES (2, 'Cheese Burger', NULL, 1)
+INSERT INTO `recipes`
+    (`id`, `title`, `num_steps`, `chef_id`)
+  VALUES
+    (2, 'Cheese Burger', NULL, 1)
 ```
 
 ---
+class: fake-middle
+# It also works with nested associations
 
-# It also works with NxN associations
-
+---
+class: fake-middle, code-slide, long-code
 ```ruby
-inserts = Polo.explore(Chef, 1, :recipes => :ingredients)
+inserts = Polo.explore(Chef, 1, { :recipes => :ingredients })
+# { :recipes => :ingredients } ->
+#    load every recipe and ingredientes
 ```
 
 ```sql
 ...
-
 INSERT INTO `recipes` (`id`, `title`, `num_steps`, `chef_id`)
   VALUES (1, 'Turkey Sandwich', NULL, 1)
 
 INSERT INTO `recipes` (`id`, `title`, `num_steps`, `chef_id`)
   VALUES (2, 'Cheese Burger', NULL, 1)
 
-*INSERT INTO `recipes_ingredients` (`id`, `recipe_id`, `ingredient_id`)
+*INSERT INTO `recipes_ingredients`
+*  (`id`, `recipe_id`, `ingredient_id`)
 *  VALUES (1, 1, 1)
 
-*INSERT INTO `recipes_ingredients` (`id`, `recipe_id`, `ingredient_id`)
+*INSERT INTO `recipes_ingredients`
+*  (`id`, `recipe_id`, `ingredient_id`)
 *  VALUES (2, 1, 2)
-
 ...
 
 INSERT INTO `ingredients` (`id`, `name`, `quantity`)
@@ -212,25 +296,42 @@ INSERT INTO `ingredients` (`id`, `name`, `quantity`)
 ```
 
 ---
+class: fake-middle
+#🎩
 # Show me the magic!
 
 ---
+class: fake-middle
 # Collect all the objects
 
-- https://github.com/IFTTT/polo/blob/master/lib/polo/collector.rb#L16
+[lib/polo/collector.rb#L16](https://github.com/IFTTT/polo/blob/master/lib/polo/collector.rb#L16)
+
+---
+class: fake-middle, code-slide
 
 ```ruby
-ActiveSupport::Notifications.subscribed(collector, 'sql.active_record') do
-*  base_finder = @base_class.includes(@dependency_tree).where(id: @id)
+asn = ActiveSupport::Notifications
+# Extracted so this can fit in a slide
+
+asn.subscribed(collector, 'sql.active_record') do
+# Set up ActiveRecord::Preloader
+*  base_finder = @base_class.
+*    includes(@dependency_tree)
+*    .where(id: @id)
+
+# Store SELECTS in some global storage
   collect_sql(@base_class, base_finder.to_sql)
 end
 ```
 
 ---
+class: fake-middle
+#  🔨
 # Transform them to SQL
+[lib/polo/sql_translator.rb#51](https://github.com/IFTTT/polo/blob/master/lib/polo/sql_translator.rb#51)
 
-- https://github.com/IFTTT/polo/blob/master/lib/polo/sql_translator.rb#51
-
+---
+class: fake-middle, code-slide
 ```ruby
 attributes = record.attributes
 
@@ -240,7 +341,8 @@ end
 
 values = attributes.map do |key, value|
   column = record.column_for_attribute(key)
-  connection.quote(cast_attribute(record, column, value))
+  attribute = cast_attribute(record, column, value)
+  connection.quote(attribute)
 end
 
 joined_keys = keys.join(', ')
@@ -248,19 +350,40 @@ joined_values = values.join(', ')
 
 table_name = record.class.table_name
 
-"INSERT INTO `#{table_name}` (#{joined_keys}) VALUES (#{joined_values})"
+"INSERT INTO `#{table_name}`" +
+" (#{joined_keys}) VALUES (#{joined_values})"
 ```
 
 ---
-# PROFIT!
+class: fake-middle
+# PROFIT! 💸
 
 ---
-# I need your help!
+class: fake-middle
+# I need your help! 😬
 
-- github.com/IFTTT/polo
-- ifttt.github.io
-- Pull Requests
-- PostgreSQL, SQLite and Oracle implementations
-- ActiveRecord < 3.2 support
+---
+class: fake-middle
+# on Github
+http://github.com/IFTTT/polo
 
+---
+class: fake-middle
+# Pull Requests 💕
 
+---
+class: fake-middle
+# PostgreSQL, SQLite and Oracle support
+
+---
+class: fake-middle
+# ActiveRecord < 3.2 support
+
+---
+class: fake-middle
+# Check out some other really cool Open Source projects
+http://ifttt.github.io
+
+---
+class: fake-middle
+# Questions?

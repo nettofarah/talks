@@ -92,6 +92,7 @@ ul {
 }
 
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+.remark-code-line-highlighted     { background-color: #003d51; }
 
 .remark-inline-code {
   background-color: #424242;
@@ -127,8 +128,12 @@ img {
   font-size: 27px;
 }
 
+.short-code .remark-code {
+  font-size: 40px;
+}
+
 .long-code .remark-code {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .right-column {
