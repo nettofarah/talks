@@ -77,7 +77,7 @@ class: fake-middle
 ---
 class: fake-middle
 # Empresas precisam de você
-Desenvolvedores talentosos são escaços em qualquer lugar do mundo
+Desenvolvedores talentosos são escassos em qualquer lugar do mundo
 
 ---
 class: fake-middle
