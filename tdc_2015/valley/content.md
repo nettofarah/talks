@@ -14,7 +14,7 @@ class: fake-middle
 
 ---
 class: fake-middle
-## Ex vendedor de picole, fazedor de site, estagiário, bolsista, monitor, funcionário publico, freelancer, consultor, dev de Startup
+## Ex vendedor de picolé, fazedor de site, estagiário, bolsista, monitor, funcionário publico, freelancer, consultor, dev de Startup
 
 ---
 class: fake-middle
@@ -24,7 +24,7 @@ class: fake-middle
 class: fake-middle
 # Disclaimer
 
-Não trabalho para que nenhuma agencia de intercambio, viagem ou travessia ilegal.
+Não trabalho para nenhuma agência de intercâmbio, viagem ou travessia ilegal.
 
 ---
 class: fake-middle
