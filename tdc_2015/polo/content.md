@@ -22,34 +22,13 @@ class: fake-middle
 ---
 class: fake-middle
 # Because Managing Data is hard
-
----
-class: fake-middle
-# Specially accross Different environments
+Specially across Different environments
 
 ---
 class: fake-middle
 # Data in `Rails.env.dev` is...
 
----
-class: fake-middle
-# Ugly
-
----
-class: fake-middle
-# Incomplete
-
----
-class: fake-middle
-# Inconsistent
-
----
-class: fake-middle
-# Weird
-
----
-class: fake-middle
-# Biased
+Ugly, Incomplete, Weird and Biased
 
 <!--
 Managing data across different environments is hard. Development data is usually
@@ -67,20 +46,7 @@ class: fake-middle
 
 ---
 class: fake-middle
-# 🐛🐞
-
----
-class: fake-middle
-# Misalignment
-I'm talking about the 💻
-
----
-class: fake-middle
-# Form validation going nuts 🌰
-
----
-class: fake-middle
-# Special Characters 😖
+# 🐛🐞, misalignment, form validation, special characters 😖
 
 <!--
 Bugs will begin to show up. Elements will not look well aligned on the screen,
