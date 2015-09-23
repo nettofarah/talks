@@ -298,6 +298,8 @@ class: fake-middle
 # Vale a pena?
 
 ---
+background-image: url(images/inspiracao.png)
+---
 class: fake-middle
 # Você (netto) quer voltar?
 
