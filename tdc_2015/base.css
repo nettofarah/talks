@@ -111,7 +111,8 @@ img {
 }
 
 .image img {
-  max-width: 600px;
+  max-width: 700px;
+  max-height: 700px;
 }
 
 .code-slide {
@@ -183,4 +184,8 @@ a {
 
 .roles ul li {
   background-color: #ff4400;
+}
+
+.rent img {
+  width: 100%;
 }
