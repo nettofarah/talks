@@ -240,7 +240,7 @@ Com L1 podem trabalhar. Nos outros não.
 
 ---
 class: fake-middle
-# O que fazer quando chegar la?
+# O que fazer quando chegar lá?
 
 ---
 class: fake-middle
