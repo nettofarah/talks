@@ -103,7 +103,7 @@ class: fake-middle
 
 ---
 class: fake-middle
-# Just ask her to clear the browser cache
+# Just ask them to clear the browser cache
 
 ---
 class: fake-middle
