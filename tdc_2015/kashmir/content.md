@@ -16,6 +16,8 @@ class: fake-middle
 ## github.com/nettofarah
 ## @nettofarah
 
+http://bit.ly/kashmir-netto
+
 ---
 class: fake-middle
 # Senior Product Engineer @ IFTTT
