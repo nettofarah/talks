@@ -1,5 +1,5 @@
 layout: true
-.logo[![IFTTT](https://upload.wikimedia.org/wikipedia/commons/8/8d/IFTTT_Logo.svg)]
+.logo[![IFTTT](../ifttt.svg)]
 
 ---
 class: middle, main
