@@ -113,7 +113,7 @@ class: fake-middle, image, no-logo
 ---
 class: fake-middle, image, no-logo
 # Metrics
-![Metrics](images/sendwithus_analytics.png)
+![Metrics](images/sendwithusanalytics.png)
 
 (For Illustration Purposes Only)
 
@@ -161,7 +161,7 @@ class: fake-middle
 ---
 class: fake-middle, no-logo, image
 # Design
-![AB](images/ab_tests.png)
+![AB](images/abtests.png)
 
 (For Illustration Purposes Only)
 
@@ -180,7 +180,7 @@ Delivery Time
 ---
 class: fake-middle, no-logo, image
 # Drip Campaigns
-![Drip](images/drip_campaigns.png)
+![Drip](images/dripcampaigns.png)
 
 (For Illustration Purposes Only)
 ---

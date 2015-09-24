@@ -119,6 +119,27 @@ class: fake-middle
 
 ---
 class: fake-middle
+# Which leads to frustration...
+
+---
+class: fake-middle, no-logo
+background-image: url(images/cache2.png)
+---
+class: fake-middle, no-logo
+background-image: url(images/cache3.png)
+---
+class: fake-middle, no-logo
+background-image: url(images/cache4.png)
+---
+class: fake-middle, no-logo
+background-image: url(images/cache5.png)
+
+------
+class: fake-middle, no-logo, image
+background-image: url(images/cache1.png)
+
+---
+class: fake-middle
 # And Some other design problems like
 
 ---
