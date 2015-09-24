@@ -70,7 +70,7 @@ class: fake-middle, image
 
 ## Conversion Funnel (Pirate Metrics)
 
-![Pirate](http://glennstovall.com/images/articles/pirate.png)
+![Pirate](images/pirate.png)
 
 ## AARRR
 
@@ -79,6 +79,7 @@ class: fake-middle, no-background, aarrr
 # AARRR
 
 .fancy-list[
+Funnel Step
 - Acquisition
 - Activation
 - Retention
@@ -87,6 +88,7 @@ class: fake-middle, no-background, aarrr
 ]
 
 .fancy-list.roles[
+Role
 - Marketing
 - Marketing + Product
 - Product
