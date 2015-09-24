@@ -239,7 +239,7 @@ Hard to design
 
 ---
 class: fake-middle, image, kashmir
-.kashmir-logo[![Kashmir](https://raw.githubusercontent.com/IFTTT/kashmir/images/images/kashmirbanner.jpg?token=AAIf5wn0aFvxx1oNOO6GVw7SO4vENFW4ks5VuSaLwA%3D%3D)]
+.kashmir-logo[![Kashmir](images/kashmir.jpg)]
 
 ---
 class: code-slide, fake-middle
@@ -320,7 +320,7 @@ class: fake-middle
 
 ---
 class: image, no-logo, layers
-background-image: url(https://raw.githubusercontent.com/IFTTT/kashmir/images/images/kashmir.png?token=AAIf57rtAVfFPENYmWfBJ9nhZOmbFs1qks5VuVFOwA%3D%3D)
+background-image: url(images/layers.png)
 
 ---
 class: fake-middle
