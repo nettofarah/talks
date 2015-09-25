@@ -12,6 +12,8 @@ class: fake-middle
 ## github.com/nettofarah
 ## @nettofarah
 
+http://bit.ly/valley-netto
+
 ---
 class: fake-middle
 ## Ex vendedor de picolé, fazedor de site, estagiário, bolsista, monitor, funcionário público, freelancer, consultor, dev de Startup

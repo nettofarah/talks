@@ -15,6 +15,8 @@ class: fake-middle
 ## github.com/nettofarah
 ## @nettofarah
 
+http://bit.ly/polo-rb
+
 ---
 class: fake-middle
 # Real World Production Data in Development
