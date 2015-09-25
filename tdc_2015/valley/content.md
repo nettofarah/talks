@@ -104,6 +104,7 @@ class: fake-middle
 # Encontre o país que você mais se identifica
 E seja realista nas suas escolhas
 
+(talvez viaje pra lá antes)
 ---
 class: fake-middle
 # Passo 2

@@ -22,7 +22,7 @@ class: fake-middle
 ---
 class: fake-middle
 # Because Managing Data is hard
-Specially across Different environments
+Especially across Different environments
 
 ---
 class: fake-middle
@@ -46,7 +46,7 @@ class: fake-middle
 
 ---
 class: fake-middle
-# 🐛🐞, misalignment, form validation, special characters 😖
+# 🐛🐞, 💻 misalignment, form validation, special characters 😖
 
 <!--
 Bugs will begin to show up. Elements will not look well aligned on the screen,
