@@ -14,7 +14,7 @@ class: fake-middle
 
 ---
 class: fake-middle
-## Ex vendedor de picolé, fazedor de site, estagiário, bolsista, monitor, funcionário publico, freelancer, consultor, dev de Startup
+## Ex vendedor de picolé, fazedor de site, estagiário, bolsista, monitor, funcionário público, freelancer, consultor, dev de Startup
 
 ---
 class: fake-middle
@@ -37,7 +37,7 @@ class: fake-middle
 # Motivos pra você querer ir
 
 ---
-background-image: url(https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t34.0-12/12053369_963303030408617_915258934_n.jpg?oh=ef8e46c69649a44d44d57edb7ebd298d&oe=5604EDDD&__gda__=1443174080_6fcf9e499bae8efd612260df88e09cdb)
+background-image: url(images/50_cent.jpg)
 
 ---
 background-image: url(images/dolar_alto.png)
@@ -150,11 +150,11 @@ background-image: url(images/ingles.jpg)
 
 ---
 class: fake-middle
-# Saber se vender bem
+# Sabendo se vender bem
 
 ---
 class: fake-middle
-# Ter participado em projetos legais
+# Ter participado de projetos legais
 
 ---
 class: fake-middle
@@ -195,7 +195,7 @@ class: fake-middle
 class: fake-middle
 # Estados Unidos
 
-E Como eu fui parar la.
+![Sam](images/tio_sam_dinheiro.jpg)
 
 ---
 class: fake-middle
@@ -230,7 +230,7 @@ O visto clássico de trabalho.
 
 ---
 class: fake-middle
-# Como negociar salario?
+# Como negociar salário?
 Quanto eu preciso pra viver?
 
 ---
@@ -269,6 +269,13 @@ background-image: url(images/SF_3500.png)
 background-image: url(images/SF_4500.png)
 
 ---
+background-image: url(images/tio_sam_curioso.jpg)
+
+# Sério?
+
+---
+
+
 class: fake-middle
 # Construir Crédito
 Inclui conseguir cartão de crédito, conta em banco, seguros...
@@ -280,6 +287,9 @@ class: fake-middle
 
 ---
 background-image: url(images/malandro.jpg)
+
+---
+background-image: url(images/tio_sam_surpreso.jpg)
 
 ---
 class: fake-middle
