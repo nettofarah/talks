@@ -342,6 +342,7 @@ class: fake-middle
 ---
 class: fake-middle
 # PostgreSQL, SQLite and Oracle support
+(advanced features only, basic usage still works)
 
 ---
 class: fake-middle
