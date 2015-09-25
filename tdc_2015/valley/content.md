@@ -28,7 +28,7 @@ Não trabalho para nenhuma agência de intercâmbio, viagem ou travessia ilegal.
 
 ---
 class: fake-middle
-# Morar no Exterior
+# Morar no exterior
 
 Vale a pena?
 
@@ -55,11 +55,11 @@ class: fake-middle
 
 ---
 class: fake-middle
-# ver lugares novos
+# Conhecer lugares novos
 
 ---
 class: fake-middle
-# conhecer pessoas novas
+# Conhecer pessoas novas
 já viu gente feia em propaganda de intercâmbio ou curso de inglês?
 
 ---
