@@ -19,6 +19,11 @@ class: fake-middle
 
 ---
 class: fake-middle
+# Disclaimer
+I'm not a DevOps guy!
+
+---
+class: fake-middle
 
 # Senior Product Engineer @ IFTTT
 
@@ -146,7 +151,7 @@ to a more homogenous infrastructure?
 
 ---
 class: fake-middle
-# Docker + Mesosphere + Marathon + Chronos
+# Docker + Mesos + Marathon + Chronos
 
 (Not live in production yet)
 
